@@ -23637,7 +23637,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ROLYCOLY] =
     {
-        .baseHP        = 30,
+        .baseHP        = 30000,
         .baseAttack    = 40,
         .baseDefense   = 50,
         .baseSpeed     = 30,
