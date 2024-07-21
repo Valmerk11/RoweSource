@@ -18,7 +18,7 @@ const struct Item gItems[] =
     {
         .name = _("Master Ball"),
         .itemId = ITEM_MASTER_BALL,
-        .price = 0,
+        .price = 10,
         .description = sMasterBallDesc,
         .pocket = POCKET_POKE_BALLS,
         .type = 1,
@@ -1334,7 +1334,7 @@ const struct Item gItems[] =
         .name = _("Rare Candy"),
 #endif
         .itemId = ITEM_RARE_CANDY,
-        .price = 9800,
+        .price = 10,
         .description = sRareCandyDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
