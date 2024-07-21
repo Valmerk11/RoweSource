@@ -7072,11 +7072,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_GROVYLE] =
     {
-        .baseHP        = 50,
+        .baseHP        = 55,
         .baseAttack    = 85,
-        .baseDefense   = 45,
+        .baseDefense   = 50,
         .baseSpAttack  = 65,
-        .baseSpDefense = 65,
+        .baseSpDefense = 70,
         .baseSpeed     = 95,
         .type1 = TYPE_GRASS,
         .type2 = TYPE_GRASS,
@@ -7104,7 +7104,7 @@ const struct BaseStats gBaseStats[] =
         .baseDefense   = 65,
         .baseSpAttack  = 85,
         .baseSpDefense = 85,
-        .baseSpeed     = 120,
+        .baseSpeed     = 115,
         .type1 = TYPE_GRASS,
         .type2 = TYPE_GRASS,
         .catchRate = 45,
@@ -7150,10 +7150,10 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_COMBUSKEN] =
     {
         .baseHP        = 60,
-        .baseAttack    = 85,
+        .baseAttack    = 90,
         .baseDefense   = 60,
-        .baseSpeed     = 55,
-        .baseSpAttack  = 85,
+        .baseSpeed     = 60,
+        .baseSpAttack  = 90,
         .baseSpDefense = 60,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_FIGHTING,
@@ -7225,11 +7225,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MARSHTOMP] =
     {
-        .baseHP        = 70,
-        .baseAttack    = 85,
+        .baseHP        = 75,
+        .baseAttack    = 90,
         .baseDefense   = 70,
         .baseSpeed     = 50,
-        .baseSpAttack  = 60,
+        .baseSpAttack  = 65,
         .baseSpDefense = 70,
         .type1 = TYPE_WATER,
         .type2 = TYPE_GROUND,
