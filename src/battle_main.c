@@ -4488,7 +4488,6 @@ static void HandleTurnActionSelectionState(void)
                 case B_ACTION_USE_ITEM:
 					if (IsHardMode()){
 					if (FlagGet(FLAG_SYS_NO_BAG_USE) || gBattleTypeFlags & (BATTLE_TYPE_LINK //DEBUG
-											| BATTLE_TYPE_TRAINER
 											| BATTLE_TYPE_FRONTIER_NO_PYRAMID
                                             | BATTLE_TYPE_EREADER_TRAINER
                                             | BATTLE_TYPE_x2000000))
