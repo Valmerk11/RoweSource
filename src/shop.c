@@ -98,7 +98,6 @@ static const u16 sShopInventory_ZeroBadges[] = {
     ITEM_ANTIDOTE,
     ITEM_AWAKENING,
     ITEM_PARALYZE_HEAL,
-    ITEM_MASTER_BALL,
     ITEM_RARE_CANDY,
     ITEM_NONE
 };
@@ -115,7 +114,6 @@ static const u16 sShopInventory_OneBadge[] = {
     ITEM_REPEL,
     ITEM_LURE,
     ITEM_ESCAPE_ROPE,
-    ITEM_MASTER_BALL,
     ITEM_RARE_CANDY,
     ITEM_NONE
 };
@@ -135,7 +133,6 @@ static const u16 sShopInventory_TwoBadges[] = {
     ITEM_REPEL,
     ITEM_LURE,
     ITEM_ESCAPE_ROPE,
-    ITEM_MASTER_BALL,
     ITEM_RARE_CANDY,
     ITEM_NONE
 };
@@ -157,7 +154,6 @@ static const u16 sShopInventory_ThreeBadges[] = {
     ITEM_LURE,
     ITEM_SUPER_LURE,
     ITEM_ESCAPE_ROPE,
-    ITEM_MASTER_BALL,
     ITEM_RARE_CANDY,
     ITEM_NONE
 };
@@ -181,7 +177,6 @@ static const u16 sShopInventory_FourBadges[] = {
     ITEM_SUPER_LURE,
     ITEM_ESCAPE_ROPE,
 	ITEM_PP_UP,
-    ITEM_MASTER_BALL,
     ITEM_RARE_CANDY,
     ITEM_NONE
 };
@@ -207,7 +202,6 @@ static const u16 sShopInventory_FiveBadges[] = {
     ITEM_SUPER_LURE,
     ITEM_ESCAPE_ROPE,
 	ITEM_PP_UP,
-    ITEM_MASTER_BALL,
     ITEM_RARE_CANDY,
     ITEM_NONE
 };
@@ -235,7 +229,6 @@ static const u16 sShopInventory_SixBadges[] = {
     ITEM_SUPER_LURE,
     ITEM_ESCAPE_ROPE,
 	ITEM_PP_UP,
-    ITEM_MASTER_BALL,
     ITEM_RARE_CANDY,
     ITEM_NONE
 };
@@ -268,7 +261,6 @@ static const u16 sShopInventory_SevenBadges[] = {
     ITEM_ESCAPE_ROPE,
 	ITEM_PP_UP,
 	ITEM_PP_MAX,
-    ITEM_MASTER_BALL,
     ITEM_RARE_CANDY,
     ITEM_NONE
 };
@@ -302,7 +294,6 @@ static const u16 sShopInventory_EightBadges[] = {
     ITEM_ESCAPE_ROPE,
 	ITEM_PP_UP,
 	ITEM_PP_MAX,
-    ITEM_MASTER_BALL,
     ITEM_RARE_CANDY,
     ITEM_NONE
 };
@@ -337,7 +328,6 @@ static const u16 sShopInventory_PostLeague[] = {
     ITEM_ESCAPE_ROPE,
 	ITEM_PP_UP,
 	ITEM_PP_MAX,
-    ITEM_MASTER_BALL,
     ITEM_RARE_CANDY,
     ITEM_NONE
 };
