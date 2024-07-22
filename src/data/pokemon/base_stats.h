@@ -10300,11 +10300,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_LUVDISC] =
     {
         .baseHP        = 60,  
-        .baseAttack    = 30,
-        .baseDefense   = 70,  
-        .baseSpAttack  = 75,  
+        .baseAttack    = 35,
+        .baseDefense   = 45,
+        .baseSpeed     = 50,
+        .baseSpAttack  = 70,  
         .baseSpDefense = 80,  
-        .baseSpeed     = 110, 
         .type1 = TYPE_WATER,
         .type2 = TYPE_FAIRY,
         .catchRate = 255,
@@ -16718,17 +16718,19 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ALOMOMOLA] =
     {
-        .baseHP        = 165,
-        .baseAttack    = 75,
-        .baseDefense   = 80,
-        .baseSpeed     = 65,
-        .baseSpAttack  = 40,
-        .baseSpDefense = 45,
+        .baseHP        = 140,
+        .baseAttack    = 40,
+        .baseDefense   = 50,
+        .baseSpeed     = 60,
+        .baseSpAttack  = 90,
+        .baseSpDefense = 100,
         .type1 = TYPE_WATER,
-        .type2 = TYPE_WATER,
+        .type2 = TYPE_FAIRY,
         .catchRate = 255,
         .expYield = 165,
         .evYield_HP        = 2,
+        .item1 = ITEM_HEART_SCALE,
+		.item2 = ITEM_HEART_SCALE,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 40,
         .friendship = 70,
@@ -16737,7 +16739,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup2 = EGG_GROUP_WATER_2,
         #ifdef BATTLE_ENGINE
             .abilities = {ABILITY_HEALER, ABILITY_HYDRATION},
-            .abilityHidden = ABILITY_REGENERATOR,
+            .abilityHidden = ABILITY_MULTISCALE,
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
