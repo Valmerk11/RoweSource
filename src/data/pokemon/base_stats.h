@@ -33778,10 +33778,10 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ZACIAN_CROWNED_SWORD] =
     {
-        .baseHP        = 92,
+        .baseHP        = 90,
         .baseAttack    = 170,
         .baseDefense   = 115,
-        .baseSpeed     = 148,
+        .baseSpeed     = 150,
         .baseSpAttack  = 80,
         .baseSpDefense = 115,
         .type1 = TYPE_FAIRY,
@@ -33806,10 +33806,10 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ZAMAZENTA_CROWNED_SHIELD] =
     {
-        .baseHP        = 92,
+        .baseHP        = 90,
         .baseAttack    = 130,
         .baseDefense   = 145,
-        .baseSpeed     = 128,
+        .baseSpeed     = 130,
         .baseSpAttack  = 80,
         .baseSpDefense = 145,
         .type1 = TYPE_FIGHTING,
@@ -33861,8 +33861,8 @@ const struct BaseStats gBaseStats[] =
         .baseHP        = 100,
         .baseAttack    = 130,
         .baseDefense   = 100,
-        .baseSpeed     = 97,
-        .baseSpAttack  = 63,
+        .baseSpeed     = 95,
+        .baseSpAttack  = 65,
         .baseSpDefense = 60,
         .type1 = TYPE_FIGHTING,
         .type2 = TYPE_WATER,
@@ -34027,7 +34027,7 @@ const struct BaseStats gBaseStats[] =
         .baseDefense   = 105,
         .baseSpAttack  = 45,
         .baseSpDefense = 80,
-		.baseSpeed     = 50,
+	.baseSpeed     = 50,
         .type1 = TYPE_GROUND,
         .type2 = TYPE_NORMAL,
         .catchRate = 255,
@@ -34049,12 +34049,12 @@ const struct BaseStats gBaseStats[] =
 	
 	[SPECIES_WYRDEER] =
     {
-        .baseHP        = 103,
+        .baseHP        = 105,
         .baseAttack    = 105,
-        .baseDefense   = 72,
+        .baseDefense   = 70,
         .baseSpAttack  = 105,
         .baseSpDefense = 75,
-		.baseSpeed     = 65,
+	.baseSpeed     = 65,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 255,
@@ -34079,11 +34079,11 @@ const struct BaseStats gBaseStats[] =
 	[SPECIES_BASCULEGION] =
     {
         .baseHP        = 120,
-        .baseAttack    = 112,
+        .baseAttack    = 110,
         .baseDefense   = 65,
         .baseSpAttack  = 80,
         .baseSpDefense = 75,
-        .baseSpeed     = 78,
+        .baseSpeed     = 80,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .catchRate = 255,
