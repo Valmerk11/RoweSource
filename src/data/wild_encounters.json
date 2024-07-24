@@ -6285,55 +6285,185 @@
           "land_mons": {
             "encounter_rate": 20,
             "mons": [
-              {
-                "min_level": 30,
-                "max_level": 30,
-                "species": "SPECIES_WYNAUT"
-              },
-              {
-                "min_level": 35,
-                "max_level": 35,
-                "species": "SPECIES_TOGEPI"
-              },
-              {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_WYNAUT"
-              },
-              {
-                "min_level": 40,
-                "max_level": 40,
-                "species": "SPECIES_TOGEPI"
-              },
-              {
-                "min_level": 20,
-                "max_level": 20,
-                "species": "SPECIES_WYNAUT"
-              },
-              {
-                "min_level": 45,
-                "max_level": 45,
-                "species": "SPECIES_TOGEPI"
-              },
-              {
-                "min_level": 15,
-                "max_level": 15,
-                "species": "SPECIES_HAPPINY"
-              },
-              {
-                "min_level": 50,
-                "max_level": 50,
-                "species": "SPECIES_RIOLU"
-              },
-              {
+               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_TOXEL"
+                "species": "SPECIES_ARTICUNO"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_TOXEL"
+                "species": "SPECIES_ARTICUNO"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_ZAPDOS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ZAPDOS"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_MOLTRES"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MOLTRES"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_MEW"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MEW"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_CELEBI"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CELEBI"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_REGIROCK"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_REGIROCK"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_REGICE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_REGICE"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_REGISTEEL"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_REGISTEEL"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_DEOXYS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DEOXYS"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_HEATRAN"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_HEATRAN"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_DARKRAI"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DARKRAI"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_VICTINI"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_VICTINI"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_GENESECT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_GENESECT"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_DIANCIE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DIANCIE"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_VOLCANION"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_VOLCANION"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_MELTAN"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MELTAN"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_POIPOLE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_POIPOLE"
+              },
+               {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_KUBFU"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_KUBFU"
               },
               {
                 "min_level": 10,
