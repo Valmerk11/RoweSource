@@ -3143,7 +3143,7 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
     SetBoxMonData(boxMon, MON_DATA_POKEBALL, &value);
     SetBoxMonData(boxMon, MON_DATA_OT_GENDER, &gSaveBlock2Ptr->playerGender);
 
-    if (fixedIV < 10)
+    if (fixedIV < 32)
     {
         SetBoxMonData(boxMon, MON_DATA_HP_IV, &fixedIV);
         SetBoxMonData(boxMon, MON_DATA_ATK_IV, &fixedIV);
@@ -3804,7 +3804,7 @@ u16 GetExioliteSpecies(u16 basespecies, u8 level){
     SetMonData(mon, field, &n);                                 \
 }
 
-const u16 LevelCaps[NUM_SOFT_CAPS] = {16, 24, 32, 40, 48, 56, 64, 72, 80, 100};
+const u16 LevelCaps[NUM_SOFT_CAPS] = {16, 23, 29, 36, 43, 51, 57, 69, 77, 100};
 
 void CalculateMonStats(struct Pokemon *mon)
 {
