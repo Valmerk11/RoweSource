@@ -19028,7 +19028,7 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_FURFROU] =
     {
         .baseHP        = 75,
-        .baseAttack    = 80,
+        .baseAttack    = 85,
         .baseDefense   = 60,
         .baseSpeed     = 100,
         .baseSpAttack  = 65,
