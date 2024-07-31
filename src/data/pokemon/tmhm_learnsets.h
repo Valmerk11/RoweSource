@@ -23404,6 +23404,7 @@ static const u8 sSolosisTMHMLearnset[] =
     TMHM(TM92_TRICK_ROOM),
     TMHM(TM100_CONFIDE),
     TMHM(TM105_PSYSHOCK),
+    TMHM(TM108_EARTH_POWER),
     0xFF,
 };
 
@@ -23447,6 +23448,7 @@ static const u8 sDuosionTMHMLearnset[] =
     TMHM(TM92_TRICK_ROOM),
     TMHM(TM100_CONFIDE),
     TMHM(TM105_PSYSHOCK),
+    TMHM(TM108_EARTH_POWER),
     0xFF,
 };
 
@@ -23477,8 +23479,7 @@ static const u8 sReuniclusTMHMLearnset[] =
     TMHM(TM48_SKILL_SWAP),
     TMHM(TM49_SNATCH),
     TMHM(TM52_FOCUS_BLAST),
-    TMHM(TM53_ENERGY_BALL),
-    
+    TMHM(TM53_ENERGY_BALL),    
     TMHM(TM63_EMBARGO),
     TMHM(TM64_EXPLOSION),
     TMHM(TM68_GIGA_IMPACT),
@@ -23496,6 +23497,7 @@ static const u8 sReuniclusTMHMLearnset[] =
     TMHM(TM92_TRICK_ROOM),
     TMHM(TM100_CONFIDE),
     TMHM(TM105_PSYSHOCK),
+    TMHM(TM108_EARTH_POWER),
     TMHM(TM119_DRAIN_PUNCH),
     0xFF,
 };
