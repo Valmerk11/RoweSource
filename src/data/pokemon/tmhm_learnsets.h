@@ -33660,6 +33660,7 @@ static const u8 sObstagoonTMHMLearnset[] =
 static const u8 sPerrserkerTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
+    TMHM(TM08_BULK_UP),
 	TMHM(TM10_HIDDEN_POWER),
 	TMHM(TM11_SUNNY_DAY),
     TMHM(TM12_TAUNT),
@@ -33671,11 +33672,12 @@ static const u8 sPerrserkerTMHMLearnset[] =
     TMHM(TM25_THUNDER),
     TMHM(TM28_DIG),
     TMHM(TM30_SHADOW_BALL),
+    TMHM(TM31_BRICK_BREAK),
     TMHM(TM42_FACADE),
     TMHM(TM44_REST),
     TMHM(TM45_ATTRACT),
     TMHM(TM46_THIEF),
-    
+    TMHM(TM51_LOW_SWEEP),
     TMHM(TM65_SHADOW_CLAW),
     TMHM(TM66_PAYBACK),
     TMHM(TM68_GIGA_IMPACT),
