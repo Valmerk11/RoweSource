@@ -3639,6 +3639,9 @@ static const struct LevelUpMove sLaprasLevelUpLearnset[] = {
 
 static const struct LevelUpMove sDittoLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TRANSFORM),
+    LEVEL_UP_MOVE( 1, MOVE_RECOVER),
+    LEVEL_UP_MOVE( 1, MOVE_METRONOME),
+    LEVEL_UP_MOVE( 1, MOVE_MIMIC),
     LEVEL_UP_END
 };
 
