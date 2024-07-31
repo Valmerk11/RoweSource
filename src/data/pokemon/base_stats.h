@@ -1437,8 +1437,8 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_DUGTRIO] =
     {
-        .baseHP        = 40,
-        .baseDefense   = 50,
+        .baseHP        = 50,
+        .baseDefense   = 60,
         .baseSpeed     = 120,
         .baseSpAttack  = 50,
         .baseSpDefense = 80,
@@ -5450,8 +5450,8 @@ const struct BaseStats gBaseStats[] =
         .baseAttack    = 85,
         .baseDefense   = 90, 
         .baseSpeed     = 35,
-        .baseSpAttack  = 65,
-        .baseSpDefense = 65,
+        .baseSpAttack  = 75,
+        .baseSpDefense = 75,
         .type1 = TYPE_WATER,
         .type2 = TYPE_GROUND,
         .catchRate = 255,
@@ -7307,10 +7307,10 @@ const struct BaseStats gBaseStats[] =
     {
         .baseHP        = 70,
         .baseAttack    = 110,
-        .baseDefense   = 70,
+        .baseDefense   = 80,
         .baseSpeed     = 70,
         .baseSpAttack  = 60,
-        .baseSpDefense = 60,
+        .baseSpDefense = 70,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DARK,
         .catchRate = 255,
@@ -26923,9 +26923,9 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_DUGTRIO_ALOLAN] =
     {
-        .baseHP        = 40,
+        .baseHP        = 50,
         .baseAttack    = 100,
-        .baseDefense   = 50,
+        .baseDefense   = 60,
         .baseSpeed     = 120,
         .baseSpAttack  = 50,
         .baseSpDefense = 80,
