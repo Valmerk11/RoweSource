@@ -7925,9 +7925,9 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MASQUERAIN] =
     {
-        .baseHP        = 70,
+        .baseHP        = 75,
         .baseAttack    = 60,
-        .baseDefense   = 60,
+        .baseDefense   = 65,
         .baseSpeed     = 80,
         .baseSpAttack  = 100,
         .baseSpDefense = 85,
@@ -15583,7 +15583,7 @@ const struct BaseStats gBaseStats[] =
         .baseHP        = 105,
         .baseAttack    = 140,
         .baseDefense   = 55,
-        .baseSpeed     = 95,
+        .baseSpeed     = 85,
         .baseSpAttack  = 30,
         .baseSpDefense = 55,
         .type1 = TYPE_FIRE,
