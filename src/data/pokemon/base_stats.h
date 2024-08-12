@@ -5941,11 +5941,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SHUCKLE] =
     {
-        .baseHP        = 30,
-        .baseAttack    = 10,
-        .baseDefense   = 230,
-        .baseSpAttack  = 10,
-        .baseSpDefense = 230,
+        .baseHP        = 60,
+        .baseAttack    = 25,
+        .baseDefense   = 200,
+        .baseSpAttack  = 25,
+        .baseSpDefense = 200,
         .baseSpeed     = 5,
         .type1 = TYPE_BUG,
         .type2 = TYPE_ROCK,
@@ -21758,12 +21758,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_PYUKUMUKU] =
     {
-        .baseHP        = 65,
-        .baseAttack    = 80,
-        .baseDefense   = 130,
-        .baseSpeed     = 5,
-        .baseSpAttack  = 40,
-        .baseSpDefense = 130,
+        .baseHP        = 70,
+        .baseAttack    = 10,
+        .baseDefense   = 175,
+        .baseSpeed     = 10,
+        .baseSpAttack  = 10,
+        .baseSpDefense = 175,
         .type1 = TYPE_POISON,
         .type2 = TYPE_POISON,
         .catchRate = 255,
