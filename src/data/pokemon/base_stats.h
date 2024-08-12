@@ -5634,12 +5634,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_WOBBUFFET] =
     {
-        .baseHP        = 200,
-        .baseAttack    = 30,
-        .baseDefense   = 80,
-        .baseSpeed     = 30,
-        .baseSpAttack  = 30,
-        .baseSpDefense = 80,
+        .baseHP        = 220,
+        .baseAttack    = 10,
+        .baseDefense   = 100,
+        .baseSpeed     = 10,
+        .baseSpAttack  = 10,
+        .baseSpDefense = 100,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 255,
