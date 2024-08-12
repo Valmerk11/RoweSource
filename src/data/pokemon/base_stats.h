@@ -10018,11 +10018,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_WYNAUT] =
     {
-        .baseHP        = 100,
-        .baseAttack    = 20,
+        .baseHP        = 120,
+        .baseAttack    = 10,
         .baseDefense   = 50,
-        .baseSpeed     = 20,
-        .baseSpAttack  = 20,
+        .baseSpeed     = 10,
+        .baseSpAttack  = 10,
         .baseSpDefense = 50,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
