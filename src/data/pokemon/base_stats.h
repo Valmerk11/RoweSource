@@ -15582,7 +15582,7 @@ const struct BaseStats gBaseStats[] =
     {
         .baseHP        = 105,
         .baseAttack    = 140,
-        .baseDefense   = 55,
+        .baseDefense   = 65,
         .baseSpeed     = 85,
         .baseSpAttack  = 30,
         .baseSpDefense = 55,
@@ -21083,7 +21083,7 @@ const struct BaseStats gBaseStats[] =
         .baseHP        = 75,
         .baseAttack    = 65,
         .baseDefense   = 140,
-        .baseSpeed     = 35,
+        .baseSpeed     = 25,
         .baseSpAttack  = 55,
         .baseSpDefense = 130,
         .type1 = TYPE_POISON,
@@ -27708,8 +27708,8 @@ const struct BaseStats gBaseStats[] =
     {
         .baseHP        = 105,
         .baseAttack    = 140,
-        .baseDefense   = 55,
-        .baseSpeed     = 95,
+        .baseDefense   = 65,
+        .baseSpeed     = 85,
         .baseSpAttack  = 30,
         .baseSpDefense = 55,
         .type1 = TYPE_ICE,
@@ -29932,12 +29932,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_DARMANITAN_ZEN_MODE] =
     {
-        .baseHP        = 105,
-        .baseAttack    = 30,
-        .baseDefense   = 105,
-        .baseSpeed     = 55,
-        .baseSpAttack  = 140,
-        .baseSpDefense = 105,
+	.baseHP        = 105,
+        .baseAttack    = 80,
+        .baseDefense   = 100,
+        .baseSpeed     = 105,
+        .baseSpAttack  = 30,
+        .baseSpDefense = 100,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 255,
@@ -29961,12 +29961,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_DARMANITAN_ZEN_MODE_GALARIAN] =
     {
-        .baseHP        = 105,
-        .baseAttack    = 160,
-        .baseDefense   = 55,
-        .baseSpeed     = 135,
+	.baseHP        = 105,
+        .baseAttack    = 80,
+        .baseDefense   = 100,
+        .baseSpeed     = 105,
         .baseSpAttack  = 30,
-        .baseSpDefense = 55,
+        .baseSpDefense = 100,
         .type1 = TYPE_ICE,
         .type2 = TYPE_FIRE,
         .catchRate = 255,
