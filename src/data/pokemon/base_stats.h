@@ -26756,6 +26756,7 @@ const struct BaseStats gBaseStats[] =
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
+        .abilityHidden = ABILITY_LIGHTNING_ROD,
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
         .flags = F_ALOLAN_FORM,
