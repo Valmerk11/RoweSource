@@ -56023,7 +56023,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .eggGroup1 = EGG_GROUP_BUG,
         .eggGroup2 = EGG_GROUP_WATER_3,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_EMERGENCY_EXIT, ABILITY_NONE},
+            .abilities = {ABILITY_EMERGENCY_EXIT, ABILITY_TOUGH_CLAWS},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
