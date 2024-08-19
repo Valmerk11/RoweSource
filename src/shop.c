@@ -98,21 +98,7 @@ static const u16 sShopInventory_ZeroBadges[] = {
     ITEM_ANTIDOTE,
     ITEM_AWAKENING,
     ITEM_PARALYZE_HEAL,
-    ITEM_RARE_CANDY,
-    ITEM_OLD_AMBER,
-    ITEM_ARMOR_FOSSIL,
-    ITEM_SKULL_FOSSIL,
-    ITEM_HELIX_FOSSIL,
-    ITEM_DOME_FOSSIL,
-    ITEM_ROOT_FOSSIL,
-    ITEM_CLAW_FOSSIL,
-    ITEM_COVER_FOSSIL,
-    ITEM_PLUME_FOSSIL,
-    ITEM_JAW_FOSSIL,
-    ITEM_SAIL_FOSSIL,
-    ITEM_RED_SHARD,
-    ITEM_BLUE_SHARD,
-    ITEM_GREEN_SHARD,
+    ITEM_REPEL,
     ITEM_NONE
 };
 
@@ -128,7 +114,6 @@ static const u16 sShopInventory_OneBadge[] = {
     ITEM_REPEL,
     ITEM_LURE,
     ITEM_ESCAPE_ROPE,
-    ITEM_RARE_CANDY,
     ITEM_NONE
 };
 
@@ -147,7 +132,6 @@ static const u16 sShopInventory_TwoBadges[] = {
     ITEM_REPEL,
     ITEM_LURE,
     ITEM_ESCAPE_ROPE,
-    ITEM_RARE_CANDY,
     ITEM_NONE
 };
 
@@ -168,7 +152,6 @@ static const u16 sShopInventory_ThreeBadges[] = {
     ITEM_LURE,
     ITEM_SUPER_LURE,
     ITEM_ESCAPE_ROPE,
-    ITEM_RARE_CANDY,
     ITEM_NONE
 };
 
@@ -191,7 +174,6 @@ static const u16 sShopInventory_FourBadges[] = {
     ITEM_SUPER_LURE,
     ITEM_ESCAPE_ROPE,
 	ITEM_PP_UP,
-    ITEM_RARE_CANDY,
     ITEM_NONE
 };
 
@@ -216,7 +198,6 @@ static const u16 sShopInventory_FiveBadges[] = {
     ITEM_SUPER_LURE,
     ITEM_ESCAPE_ROPE,
 	ITEM_PP_UP,
-    ITEM_RARE_CANDY,
     ITEM_NONE
 };
 
@@ -243,7 +224,6 @@ static const u16 sShopInventory_SixBadges[] = {
     ITEM_SUPER_LURE,
     ITEM_ESCAPE_ROPE,
 	ITEM_PP_UP,
-    ITEM_RARE_CANDY,
     ITEM_NONE
 };
 
@@ -275,7 +255,6 @@ static const u16 sShopInventory_SevenBadges[] = {
     ITEM_ESCAPE_ROPE,
 	ITEM_PP_UP,
 	ITEM_PP_MAX,
-    ITEM_RARE_CANDY,
     ITEM_NONE
 };
 
@@ -308,6 +287,7 @@ static const u16 sShopInventory_EightBadges[] = {
     ITEM_ESCAPE_ROPE,
 	ITEM_PP_UP,
 	ITEM_PP_MAX,
+    ITEM_PSYCHIC_GEM,
     ITEM_RARE_CANDY,
     ITEM_NONE
 };
