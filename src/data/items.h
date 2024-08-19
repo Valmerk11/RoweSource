@@ -18,7 +18,7 @@ const struct Item gItems[] =
     {
         .name = _("Master Ball"),
         .itemId = ITEM_MASTER_BALL,
-        .price = 10,
+        .price = 0,
         .description = sMasterBallDesc,
         .pocket = POCKET_POKE_BALLS,
         .type = 1,
@@ -498,7 +498,7 @@ const struct Item gItems[] =
         .name = _("Potion"),
 #endif
         .itemId = ITEM_POTION,
-        .price = 300,
+        .price = 60000,
         .holdEffectParam = 20,
         .description = sPotionDesc,
         .pocket = POCKET_MEDICINE,
@@ -1188,7 +1188,7 @@ const struct Item gItems[] =
         .name = _("Red Shard"),
 #endif
         .itemId = ITEM_RED_SHARD,
-        .price = 10,
+        .price = 200,
         .description = sRedShardDesc,
         .pocket = POCKET_ITEMS,
         .type = 4,
@@ -1204,7 +1204,7 @@ const struct Item gItems[] =
         .name = _("Blue Shard"),
 #endif
         .itemId = ITEM_BLUE_SHARD,
-        .price = 10,
+        .price = 200,
         .description = sBlueShardDesc,
         .pocket = POCKET_ITEMS,
         .type = 4,
@@ -1220,7 +1220,7 @@ const struct Item gItems[] =
         .name = _("Yellow Shard"),
 #endif
         .itemId = ITEM_YELLOW_SHARD,
-        .price = 10,
+        .price = 200,
         .description = sYellowShardDesc,
         .pocket = POCKET_ITEMS,
         .type = 4,
@@ -1236,7 +1236,7 @@ const struct Item gItems[] =
         .name = _("Green Shard"),
 #endif
         .itemId = ITEM_GREEN_SHARD,
-        .price = 10,
+        .price = 200,
         .description = sGreenShardDesc,
         .pocket = POCKET_ITEMS,
         .type = 4,
@@ -1624,7 +1624,7 @@ const struct Item gItems[] =
         .name = _("Ability Capsule"),
 #endif
         .itemId = ITEM_ABILITY_CAPSULE,
-        .price = 0,
+        .price = 10,
         .holdEffectParam = 0,
         .description = sAbilityCapsuleDesc,
         .pocket = POCKET_POWER_UP,
@@ -10688,7 +10688,7 @@ const struct Item gItems[] =
     {
         .name = _("Adamant Mint"),
         .itemId = ITEM_ADAMANT_MINT,
-        .price = 0,
+        .price = 10,
         .description = sAdamantMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10700,7 +10700,7 @@ const struct Item gItems[] =
     {
         .name = _("Bold Mint"),
         .itemId = ITEM_BOLD_MINT,
-        .price = 0,
+        .price = 10,
         .description = sBoldMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10712,7 +10712,7 @@ const struct Item gItems[] =
     {
         .name = _("Brave Mint"),
         .itemId = ITEM_BRAVE_MINT,
-        .price = 0,
+        .price = 10,
         .description = sBraveMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10724,7 +10724,7 @@ const struct Item gItems[] =
     {
         .name = _("Calm Mint"),
         .itemId = ITEM_CALM_MINT,
-        .price = 0,
+        .price = 10,
         .description = sCalmMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10736,7 +10736,7 @@ const struct Item gItems[] =
     {
         .name = _("Careful Mint"),
         .itemId = ITEM_CAREFUL_MINT,
-        .price = 0,
+        .price = 10,
         .description = sCarefulMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10748,7 +10748,7 @@ const struct Item gItems[] =
     {
         .name = _("Gentle Mint"),
         .itemId = ITEM_GENTLE_MINT,
-        .price = 0,
+        .price = 10,
         .description = sGentleMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10760,7 +10760,7 @@ const struct Item gItems[] =
     {
         .name = _("Hasty Mint"),
         .itemId = ITEM_HASTY_MINT,
-        .price = 0,
+        .price = 10,
         .description = sHastyMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10772,7 +10772,7 @@ const struct Item gItems[] =
     {
         .name = _("Impish Mint"),
         .itemId = ITEM_IMPISH_MINT,
-        .price = 0,
+        .price = 10,
         .description = sImpishMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10784,7 +10784,7 @@ const struct Item gItems[] =
     {
         .name = _("Jolly Mint"),
         .itemId = ITEM_JOLLY_MINT,
-        .price = 0,
+        .price = 10,
         .description = sJollyMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10796,7 +10796,7 @@ const struct Item gItems[] =
     {
         .name = _("Lax Mint"),
         .itemId = ITEM_LAX_MINT,
-        .price = 0,
+        .price = 10,
         .description = sLaxMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10808,7 +10808,7 @@ const struct Item gItems[] =
     {
         .name = _("Lonely Mint"),
         .itemId = ITEM_LONELY_MINT,
-        .price = 0,
+        .price = 10,
         .description = sLonelyMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10820,7 +10820,7 @@ const struct Item gItems[] =
     {
         .name = _("Mild Mint"),
         .itemId = ITEM_MILD_MINT,
-        .price = 0,
+        .price = 10,
         .description = sMildMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10832,7 +10832,7 @@ const struct Item gItems[] =
     {
         .name = _("Modest Mint"),
         .itemId = ITEM_MODEST_MINT,
-        .price = 0,
+        .price = 10,
         .description = sModestMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10844,7 +10844,7 @@ const struct Item gItems[] =
     {
         .name = _("Naive Mint"),
         .itemId = ITEM_NAIVE_MINT,
-        .price = 0,
+        .price = 10,
         .description = sNaiveMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10856,7 +10856,7 @@ const struct Item gItems[] =
     {
         .name = _("Naughty Mint"),
         .itemId = ITEM_NAUGHTY_MINT,
-        .price = 0,
+        .price = 10,
         .description = sNaughtyMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10868,7 +10868,7 @@ const struct Item gItems[] =
     {
         .name = _("Quiet Mint"),
         .itemId = ITEM_QUIET_MINT,
-        .price = 0,
+        .price = 10,
         .description = sQuietMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10880,7 +10880,7 @@ const struct Item gItems[] =
     {
         .name = _("Rash Mint"),
         .itemId = ITEM_RASH_MINT,
-        .price = 0,
+        .price = 10,
         .description = sRashMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10892,7 +10892,7 @@ const struct Item gItems[] =
     {
         .name = _("Relaxed Mint"),
         .itemId = ITEM_RELAXED_MINT,
-        .price = 0,
+        .price = 10,
         .description = sRelaxedMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10904,7 +10904,7 @@ const struct Item gItems[] =
     {
         .name = _("Sassy Mint"),
         .itemId = ITEM_SASSY_MINT,
-        .price = 0,
+        .price = 10,
         .description = sSassyMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10916,7 +10916,7 @@ const struct Item gItems[] =
     {
         .name = _("Serious Mint"),
         .itemId = ITEM_SERIOUS_MINT,
-        .price = 0,
+        .price = 10,
         .description = sSeriousMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
@@ -10928,7 +10928,7 @@ const struct Item gItems[] =
     {
         .name = _("Timid Mint"),
         .itemId = ITEM_TIMID_MINT,
-        .price = 0,
+        .price = 10,
         .description = sTimidMintDesc,
         .pocket = POCKET_POWER_UP,
         .type = 1,
