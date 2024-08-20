@@ -14294,7 +14294,7 @@ const struct BaseStats gBaseStats[] =
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
-        .abilityHidden = ABILITY_SAGE_POWER,
+        .abilityHidden = ABILITY_OVERGROW,
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
@@ -14356,7 +14356,7 @@ const struct BaseStats gBaseStats[] =
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
-        .abilityHidden = ABILITY_SAGE_POWER,
+        .abilityHidden = ABILITY_BLAZE,
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
@@ -14418,7 +14418,7 @@ const struct BaseStats gBaseStats[] =
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
-        .abilityHidden = ABILITY_SAGE_POWER,
+        .abilityHidden = ABILITY_TORRENT,
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
