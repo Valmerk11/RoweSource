@@ -8062,11 +8062,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SLAKING] =
     {
-        .baseHP        = 150,
-        .baseAttack    = 160,
+        .baseHP        = 120,
+        .baseAttack    = 140,
         .baseDefense   = 100,
-        .baseSpeed     = 100,
-        .baseSpAttack  = 95,
+        .baseSpeed     = 70,
+        .baseSpAttack  = 75,
         .baseSpDefense = 65,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
@@ -8079,7 +8079,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
-        .abilities = {ABILITY_TRUANT, ABILITY_NONE},
+        .abilities = {ABILITY_SCRAPPY, ABILITY_NONE},
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
@@ -21025,10 +21025,10 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_WISHIWASHI] =
     {
-        .baseHP        = 50,
+        .baseHP        = 60,
         .baseAttack    = 25,
         .baseDefense   = 25,
-        .baseSpeed     = 50,
+        .baseSpeed     = 60,
         .baseSpAttack  = 25,
         .baseSpDefense = 25,
         .type1 = TYPE_WATER,
@@ -32288,12 +32288,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_WISHIWASHI_SCHOOL] =
     {
-        .baseHP        = 50,
-        .baseAttack    = 140,
-        .baseDefense   = 130,
+        .baseHP        = 60,
+        .baseAttack    = 110,
+        .baseDefense   = 120,
         .baseSpeed     = 30,
-        .baseSpAttack  = 140,
-        .baseSpDefense = 130,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 120,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .catchRate = 255,
