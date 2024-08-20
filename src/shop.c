@@ -96,6 +96,8 @@ static const u16 sShopInventory_ZeroBadges[] = {
     ITEM_POKE_BALL,
     ITEM_POTION,
     ITEM_ANTIDOTE,
+    ITEM_BURN_HEAL,
+    ITEM_ICE_HEAL,
     ITEM_AWAKENING,
     ITEM_PARALYZE_HEAL,
     ITEM_REPEL,
@@ -287,8 +289,6 @@ static const u16 sShopInventory_EightBadges[] = {
     ITEM_ESCAPE_ROPE,
 	ITEM_PP_UP,
 	ITEM_PP_MAX,
-    ITEM_PSYCHIC_GEM,
-    ITEM_RARE_CANDY,
     ITEM_NONE
 };
 
@@ -322,7 +322,6 @@ static const u16 sShopInventory_PostLeague[] = {
     ITEM_ESCAPE_ROPE,
 	ITEM_PP_UP,
 	ITEM_PP_MAX,
-    ITEM_RARE_CANDY,
     ITEM_NONE
 };
 
