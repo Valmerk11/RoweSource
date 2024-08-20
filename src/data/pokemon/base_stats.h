@@ -21025,11 +21025,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_WISHIWASHI] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 25,
+        .baseHP        = 40,
+        .baseAttack    = 55,
         .baseDefense   = 25,
         .baseSpeed     = 60,
-        .baseSpAttack  = 25,
+        .baseSpAttack  = 55,
         .baseSpDefense = 25,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
@@ -21043,7 +21043,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_WATER_2,
         .eggGroup2 = EGG_GROUP_WATER_2,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_SCHOOLING, ABILITY_NONE},
+            .abilities = {ABILITY_WATER_SPILL, ABILITY_NONE},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
@@ -32291,8 +32291,8 @@ const struct BaseStats gBaseStats[] =
         .baseHP        = 70,
         .baseAttack    = 100,
         .baseDefense   = 120,
-        .baseSpeed     = 30,
-        .baseSpAttack  = 80,
+        .baseSpeed     = 40,
+        .baseSpAttack  = 70,
         .baseSpDefense = 120,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
