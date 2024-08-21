@@ -52,7 +52,7 @@ LilycoveCity_DepartmentStore_3F_Pokemart_ClerkLeft_2::
 	.2byte ITEM_GRIP_CLAW
 	.2byte ITEM_ROCKY_HELMET
 	.2byte ITEM_BINDING_BAND
-	.2byte ITEM_SAFETY_GOOGLES
+	.2byte ITEM_SAFETY_GOGGLES
 	.2byte ITEM_PROTECTIVE_PADS
 	.2byte ITEM_LIGHT_CLAY
 	.2byte ITEM_ICY_ROCK
