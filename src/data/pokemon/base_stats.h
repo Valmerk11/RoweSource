@@ -5600,7 +5600,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_AMORPHOUS,
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_MAGICIAN, ABILITY_CURSED_BODY},
+        .abilities = {ABILITY_MAGICIAN, ABILITY_HOLLOW_BODY},
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
 		.flags = F_GROUND_INMUNITY,
@@ -11949,7 +11949,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_AMORPHOUS,
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_MAGICIAN, ABILITY_CURSED_BODY},
+        .abilities = {ABILITY_MAGICIAN, ABILITY_HOLLOW_BODY},
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
     },
@@ -18403,7 +18403,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup2 = EGG_GROUP_FIELD,
         .abilities = {ABILITY_BLAZE, ABILITY_NONE},
         #ifdef BATTLE_ENGINE
-            .abilityHidden = ABILITY_MAGICIAN,
+            .abilityHidden = ABILITY_MISTY_SURGE,
         #endif
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
@@ -18418,7 +18418,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 90,
         .baseSpDefense = 70,
         .type1 = TYPE_FIRE,
-        .type2 = TYPE_FIRE,
+        .type2 = TYPE_PSYCHIC,
         .catchRate = 255,
         .expYield = 143,
         .evYield_SpAttack  = 2,
@@ -18430,7 +18430,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup2 = EGG_GROUP_FIELD,
         .abilities = {ABILITY_BLAZE, ABILITY_NONE},
         #ifdef BATTLE_ENGINE
-            .abilityHidden = ABILITY_MAGICIAN,
+            .abilityHidden = ABILITY_MISTY_SURGE,
         #endif
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
@@ -18457,7 +18457,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup2 = EGG_GROUP_FIELD,
         .abilities = {ABILITY_BLAZE, ABILITY_NONE},
         #ifdef BATTLE_ENGINE
-            .abilityHidden = ABILITY_MAGICIAN,
+            .abilityHidden = ABILITY_MISTY_SURGE,
         #endif
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
