@@ -6043,7 +6043,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_PICKUP, ABILITY_QUICK_FEET},
+            .abilities = {ABILITY_GUTS, ABILITY_QUICK_FEET},
             .abilityHidden = ABILITY_HONEY_GATHER,
         #else
             .abilities = {ABILITY_PICKUP, ABILITY_NONE},
