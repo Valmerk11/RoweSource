@@ -6783,7 +6783,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     .species = SPECIES_STONJOURNER,
     .postgameheldItem = ITEM_HARD_STONE,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_ROCK_TOMB, MOVE_BRUTAL_SWING, MOVE_ROCK_POLISH, MOVE_BLOCK}
+    .postgamemoves = {MOVE_ROCK_TOMB, MOVE_BRUTAL_SWING, MOVE_ROCK_POLISH, MOVE_BLOCK},
     .moves = {MOVE_ROCK_TOMB, MOVE_BRUTAL_SWING, MOVE_ROCK_POLISH, MOVE_BLOCK}
     },
 	{
@@ -6796,7 +6796,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     .species = SPECIES_CRUSTLE,
     .postgameheldItem = ITEM_QUICK_CLAW,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_FURY_CUTTER, MOVE_SMACK_DOWN, MOVE_WITHDRAW, MOVE_SAND_ATTACK}
+    .postgamemoves = {MOVE_FURY_CUTTER, MOVE_SMACK_DOWN, MOVE_WITHDRAW, MOVE_SAND_ATTACK},
     .moves = {MOVE_FURY_CUTTER, MOVE_SMACK_DOWN, MOVE_WITHDRAW, MOVE_SAND_ATTACK}
     },
 	{
@@ -6809,7 +6809,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     .species = SPECIES_CHEWTLE,
     .postgameheldItem = ITEM_MYSTIC_WATER,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_WATER_GUN, MOVE_BITE, MOVE_STEALTH_ROCK, MOVE_ROCK_POLISH}
+    .postgamemoves = {MOVE_WATER_GUN, MOVE_BITE, MOVE_STEALTH_ROCK, MOVE_ROCK_POLISH},
     .moves = {MOVE_WATER_GUN, MOVE_BITE, MOVE_STEALTH_ROCK, MOVE_ROCK_POLISH}
     },
 	{
@@ -6822,7 +6822,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     .species = SPECIES_ARCHEN,
     .postgameheldItem = ITEM_SCOPE_LENS,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_WING_ATTACK, MOVE_ANCIENT_POWER, MOVE_TAUNT, MOVE_DOUBLE_TEAM}
+    .postgamemoves = {MOVE_WING_ATTACK, MOVE_ANCIENT_POWER, MOVE_TAUNT, MOVE_DOUBLE_TEAM},
     .moves = {MOVE_WING_ATTACK, MOVE_ANCIENT_POWER, MOVE_TAUNT, MOVE_DOUBLE_TEAM}
     },
     {
@@ -6835,7 +6835,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     .species = SPECIES_ROGGENROLA,
     .postgameheldItem = ITEM_SMOOTH_ROCK,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_HEADBUTT, MOVE_SMACK_DOWN, MOVE_BULLDOZE, MOVE_SANDSTORM}
+    .postgamemoves = {MOVE_HEADBUTT, MOVE_SMACK_DOWN, MOVE_BULLDOZE, MOVE_SANDSTORM},
     .moves = {MOVE_HEADBUTT, MOVE_SMACK_DOWN, MOVE_BULLDOZE, MOVE_SANDSTORM}
     },
     {
@@ -6848,7 +6848,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
      .species = SPECIES_ARON,
     .postgameheldItem = ITEM_METAL_COAT,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_ROCK_TOMB, MOVE_METAL_CLAW, MOVE_MUD_SLAP, MOVE_HARDEN}
+    .postgamemoves = {MOVE_ROCK_TOMB, MOVE_METAL_CLAW, MOVE_MUD_SLAP, MOVE_HARDEN},
     .moves = {MOVE_ROCK_TOMB, MOVE_METAL_CLAW, MOVE_MUD_SLAP, MOVE_HARDEN}
 	}
 };
