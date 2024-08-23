@@ -2405,7 +2405,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_FLYING,
-        .abilities = {ABILITY_ROCK_HEAD, ABILITY_EARLY_BIRD},
+        .abilities = {ABILITY_ROCK_HEAD, ABILITY_VITAL_SPIRIT},
         #ifdef BATTLE_ENGINE
             .abilityHidden = ABILITY_TANGLED_FEET,
         #endif
@@ -8969,9 +8969,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_OBLIVIOUS, ABILITY_SIMPLE},
+            .abilities = {ABILITY_SIMPLE, ABILITY_OBLIVIOUS},
         #else
-            .abilities = {ABILITY_OBLIVIOUS, ABILITY_NONE},
+            .abilities = {ABILITY_SIMPLE, ABILITY_NONE},
         #endif
         .abilityHidden = ABILITY_OWN_TEMPO,
         .bodyColor = BODY_COLOR_YELLOW,
@@ -36525,7 +36525,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_FLYING,
-        .abilities = {ABILITY_RUN_AWAY, ABILITY_VITAL_SPIRIT},
+        .abilities = {ABILITY_RUN_AWAY, ABILITY_EARLY_BIRD},
         #ifdef BATTLE_ENGINE
             .abilityHidden = ABILITY_TANGLED_FEET,
         #endif
@@ -36558,7 +36558,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_FLYING,
-        .abilities = {ABILITY_RUN_AWAY, ABILITY_VITAL_SPIRIT},
+        .abilities = {ABILITY_RUN_AWAY, ABILITY_EARLY_BIRD},
         #ifdef BATTLE_ENGINE
             .abilityHidden = ABILITY_TANGLED_FEET,
         #endif
