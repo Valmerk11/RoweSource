@@ -17364,7 +17364,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup2 = EGG_GROUP_BUG,
         #ifdef BATTLE_ENGINE
             .abilities = {ABILITY_HYDRATION, ABILITY_SHELL_ARMOR},
-            .abilityHidden = ABILITY_NO_GUARD,
+            .abilityHidden = ABILITY_OVERCOAT,
         #else
             .abilities = {ABILITY_NONE, ABILITY_SHELL_ARMOR},
         #endif
@@ -17393,7 +17393,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup2 = EGG_GROUP_BUG,
         #ifdef BATTLE_ENGINE
             .abilities = {ABILITY_HYDRATION, ABILITY_STICKY_HOLD},
-            .abilityHidden = ABILITY_UNBURDEN,
+            .abilityHidden = ABILITY_NO_GUARD,
         #else
             .abilities = {ABILITY_NONE, ABILITY_STICKY_HOLD},
         #endif
