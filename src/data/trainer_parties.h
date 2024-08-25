@@ -12976,10 +12976,10 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR1[] = {
 	.hiddenNature = NATURE_SERIOUS,
 	.pokeball = ITEM_POKE_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_ASSAULT_VEST,
-    .heldItem = ITEM_ASSAULT_VEST,
-    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_FLASH_CANNON, MOVE_TRI_ATTACK, MOVE_SIGNAL_BEAM},
-    .moves = {MOVE_THUNDERBOLT, MOVE_FLASH_CANNON, MOVE_TRI_ATTACK, MOVE_SIGNAL_BEAM}
+    .postgameheldItem = ITEM_ROCKY_HELMET,
+    .heldItem = ITEM_ROCKY_HELMET,
+    .postgamemoves = {MOVE_FURY_CUTTER, MOVE_ROCK_BLAST, MOVE_IRON_TAIL, MOVE_ROCK_POLISH},
+    .moves = {MOVE_FURY_CUTTER, MOVE_ROCK_BLAST, MOVE_IRON_TAIL, MOVE_ROCK_POLISH}
     },
 	{
     .iv = 250,
@@ -12987,15 +12987,15 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR1[] = {
     .evs = {0, 0, 0, 0, 0, 0},
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_GARCHOMP,
+    .species = SPECIES_VIKAVOLT,
         .ivs = {30, 15, 15, 15, 15, 30},
 	.hiddenNature = NATURE_SERIOUS,
 	.pokeball = ITEM_POKE_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_ROCKY_HELMET,
-    .postgamemoves = {MOVE_EARTHQUAKE, MOVE_OUTRAGE, MOVE_ROCK_SLIDE, MOVE_IRON_HEAD},
-    .moves = {MOVE_EARTHQUAKE, MOVE_OUTRAGE, MOVE_ROCK_SLIDE, MOVE_IRON_HEAD}
+    .postgameheldItem = ITEM_QUICK_CLAW,
+    .heldItem = ITEM_QUICK_CLAW,
+    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_X_SCISSOR, MOVE_VICE_GRIP, MOVE_DOUBLE_TEAM},
+    .moves = {MOVE_THUNDERBOLT, MOVE_X_SCISSOR, MOVE_VICE_GRIP, MOVE_DOUBLE_TEAM}
     },
     {
     .iv = 255,
@@ -13003,15 +13003,15 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR1[] = {
     .evs = {0, 0, 0, 0, 0, 0},
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_GALLADE,
+    .species = SPECIES_CENTISKORCH,
         .ivs = {30, 15, 15, 15, 15, 30},
 	.hiddenNature = NATURE_SERIOUS,
 	.pokeball = ITEM_POKE_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_GALLADITE,
-    .postgamemoves = {MOVE_ZEN_HEADBUTT, MOVE_CLOSE_COMBAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB},
-    .moves = {MOVE_ZEN_HEADBUTT, MOVE_CLOSE_COMBAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB}
+    .postgameheldItem = ITEM_SAFETY_GOGGLES,
+    .heldItem = ITEM_SAFETY_GOGGLES,
+    .postgamemoves = {MOVE_FIRE_LASH, MOVE_LUNGE, MOVE_CRUNCH, MOVE_COIL},
+    .moves = {MOVE_FIRE_LASH, MOVE_LUNGE, MOVE_CRUNCH, MOVE_COIL}
     }
 };
 
