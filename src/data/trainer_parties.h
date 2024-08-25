@@ -12920,18 +12920,18 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR1[] = {
     {
     .iv = 255,
     .lvl = 5, 
-    .evs = {6, 0, 0, 252, 0, 252}, 
+    .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_ROSERADE,
-	.ivs = {31, 31, 30, 31, 30, 30},	//Hidden Power Rock
-	.hiddenNature = NATURE_TIMID,
-	.pokeball = ITEM_LOVE_BALL,
+    .species = SPECIES_FROSMOTH,
+        .ivs = {30, 15, 15, 15, 15, 30},
+	.hiddenNature = NATURE_SERIOUS,
+	.pokeball = ITEM_POKE_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_BLACK_SLUDGE,
-    .postgamemoves = {MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN, MOVE_SHADOW_BALL, MOVE_HIDDEN_POWER},
-    .moves = {MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN, MOVE_SHADOW_BALL, MOVE_HIDDEN_POWER}
+    .postgameheldItem = ITEM_NEVER_MELT_ICE,
+    .heldItem = ITEM_NEVER_MELT_ICE,
+    .postgamemoves = {MOVE_ICY_WIND, MOVE_BUG_BUZZ, MOVE_DAZZLING_GLEAM, MOVE_CALM_MIND},
+    .moves = {MOVE_ICY_WIND, MOVE_BUG_BUZZ, MOVE_DAZZLING_GLEAM, MOVE_CALM_MIND}
     },
     {
     .iv = 255,
