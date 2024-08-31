@@ -21359,6 +21359,105 @@ static const struct TrainerMonItemCustomMoves sParty_Winona5[] = {
     }
 };
 static const struct TrainerMonItemCustomMoves sParty_TateAndLiza2[] = {
+ {
+    .iv = 255,
+    .lvl = 5, 
+    .evs = {0, 0, 0, 0, 0, 0}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_NOCTOWL,
+        .ivs = {30, 15, 15, 15, 15, 30},
+	.hiddenNature = NATURE_SERIOUS,
+	.pokeball = ITEM_POKE_BALL,
+	.isShiny = FALSE,
+    .postgameheldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .postgamemoves = {MOVE_AIR_CUTTER, MOVE_CONFUSION, MOVE_ECHOED_VOICE, MOVE_HYPNOSIS},
+    .moves = {MOVE_AIR_CUTTER, MOVE_CONFUSION, MOVE_ECHOED_VOICE, MOVE_HYPNOSIS}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 0, 0, 0, 0, 0}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_ESPURR,
+        .ivs = {30, 15, 15, 15, 15, 30},
+	.hiddenNature = NATURE_SERIOUS,
+	.pokeball = ITEM_POKE_BALL,
+	.isShiny = FALSE,
+    .postgameheldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .postgamemoves = {MOVE_FAKE_OUT, MOVE_CONFUSION, MOVE_DISARMING_VOICE, MOVE_ATTRACT},
+    .moves = {MOVE_FAKE_OUT, MOVE_CONFUSION, MOVE_DISARMING_VOICE, MOVE_ATTRACT}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 0, 0, 0, 0, 0}, 
+    .abilityNum = 0,
+    .happiness = 255,
+    .species = SPECIES_DOTTLER,
+        .ivs = {30, 15, 15, 15, 15, 30},
+	.hiddenNature = NATURE_SERIOUS,
+	.pokeball = ITEM_POKE_BALL,
+	.isShiny = FALSE,
+    .postgameheldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .postgamemoves = {MOVE_STRUGGLE_BUG, MOVE_CONFUSION, MOVE_REFLECT, MOVE_LIGHT_SCREEN},
+    .moves = {MOVE_STRUGGLE_BUG, MOVE_CONFUSION, MOVE_REFLECT, MOVE_LIGHT_SCREEN}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 0, 0, 0, 0, 0}, 
+    .abilityNum = 0,
+    .happiness = 255,
+    .species = SPECIES_BRUXISH,
+        .ivs = {30, 15, 15, 15, 15, 30},
+	.hiddenNature = NATURE_SERIOUS,
+	.pokeball = ITEM_POKE_BALL,
+	.isShiny = FALSE,
+    .postgameheldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .postgamemoves = {MOVE_AQUA_JET, MOVE_PSYWAVE, MOVE_BITE, MOVE_SWEET_KISS},
+    .moves = {MOVE_AQUA_JET, MOVE_PSYWAVE, MOVE_BITE, MOVE_SWEET_KISS}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 0, 0, 0, 0, 0}, 
+    .abilityNum = 0,
+    .happiness = 255,
+    .species = SPECIES_KIRLIA,
+        .ivs = {30, 15, 15, 15, 15, 30},
+	.hiddenNature = NATURE_SERIOUS,
+	.pokeball = ITEM_POKE_BALL,
+	.isShiny = FALSE,
+    .postgameheldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .postgamemoves = {MOVE_PSYBEAM, MOVE_DAZZLING_GLEAM, MOVE_LIFE_DEW, MOVE_CALM_MIND},
+    .moves = {MOVE_PSYBEAM, MOVE_DAZZLING_GLEAM, MOVE_LIFE_DEW, MOVE_CALM_MIND}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 0, 0, 0, 0, 0}, 
+    .abilityNum = 0,
+    .happiness = 255,
+    .species = SPECIES_KIRLIA,
+        .ivs = {30, 15, 15, 15, 15, 30},
+	.hiddenNature = NATURE_SERIOUS,
+	.pokeball = ITEM_POKE_BALL,
+	.isShiny = FALSE,
+    .postgameheldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .postgamemoves = {MOVE_PSYBEAM, MOVE_BRICK_BREAK, MOVE_EMBARGO, MOVE_BULK_UP},
+    .moves = {MOVE_PSYBEAM, MOVE_BRICK_BREAK, MOVE_EMBARGO, MOVE_BULK_UP}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TateAndLiza3[] = {
     {
     .iv = 255,
     .lvl = 5, 
@@ -21457,7 +21556,7 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza2[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_TateAndLiza3[] = {
+static const struct TrainerMonItemCustomMoves sParty_TateAndLiza4[] = {
         {
     .iv = 255,
     .lvl = 5, 
@@ -21556,107 +21655,8 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza3[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_TateAndLiza4[] = {
-       {
-    .iv = 255,
-    .lvl = 5, 
-    .evs = {0, 0, 0, 0, 0, 0}, 
-    .abilityNum = 2,
-    .happiness = 255,
-    .species = SPECIES_NOCTOWL,
-        .ivs = {30, 15, 15, 15, 15, 30},
-	.hiddenNature = NATURE_SERIOUS,
-	.pokeball = ITEM_POKE_BALL,
-	.isShiny = FALSE,
-    .postgameheldItem = ITEM_SITRUS_BERRY,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_HURRICANE, MOVE_EXTRASENSORY, MOVE_UPROAR, MOVE_HYPNOSIS},
-    .moves = {MOVE_HURRICANE, MOVE_EXTRASENSORY, MOVE_UPROAR, MOVE_HYPNOSIS}
-    },
-    {
-    .iv = 255,
-    .lvl = 5,
-    .evs = {0, 0, 0, 0, 0, 0}, 
-    .abilityNum = 2,
-    .happiness = 255,
-    .species = SPECIES_MEOWSTIC_FEMALE,
-        .ivs = {30, 15, 15, 15, 15, 30},
-	.hiddenNature = NATURE_SERIOUS,
-	.pokeball = ITEM_POKE_BALL,
-	.isShiny = FALSE,
-    .postgameheldItem = ITEM_SITRUS_BERRY,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_ENERGY_BALL, MOVE_ATTRACT},
-    .moves = {MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_ENERGY_BALL, MOVE_ATTRACT}
-    },
-    {
-    .iv = 255,
-    .lvl = 5,
-    .evs = {0, 0, 0, 0, 0, 0}, 
-    .abilityNum = 0,
-    .happiness = 255,
-    .species = SPECIES_DOTTLER,
-        .ivs = {30, 15, 15, 15, 15, 30},
-	.hiddenNature = NATURE_SERIOUS,
-	.pokeball = ITEM_POKE_BALL,
-	.isShiny = FALSE,
-    .postgameheldItem = ITEM_SITRUS_BERRY,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_BUG_BUZZ, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_LIGHT_SCREEN},
-    .moves = {MOVE_BUG_BUZZ, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_LIGHT_SCREEN}
-    },
-    {
-    .iv = 255,
-    .lvl = 5,
-    .evs = {0, 0, 0, 0, 0, 0}, 
-    .abilityNum = 0,
-    .happiness = 255,
-    .species = SPECIES_BRUXISH,
-        .ivs = {30, 15, 15, 15, 15, 30},
-	.hiddenNature = NATURE_SERIOUS,
-	.pokeball = ITEM_POKE_BALL,
-	.isShiny = FALSE,
-    .postgameheldItem = ITEM_SITRUS_BERRY,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_AQUA_TAIL, MOVE_PSYCHIC_FANGS, MOVE_CRUNCH, MOVE_LOVELY_KISS},
-    .moves = {MOVE_AQUA_TAIL, MOVE_PSYCHIC_FANGS, MOVE_CRUNCH, MOVE_LOVELY_KISS}
-    },
-	{
-    .iv = 255,
-    .lvl = 5,
-    .evs = {0, 0, 0, 0, 0, 0}, 
-    .abilityNum = 0,
-    .happiness = 255,
-    .species = SPECIES_GARDEVOIR,
-        .ivs = {30, 15, 15, 15, 15, 30},
-	.hiddenNature = NATURE_SERIOUS,
-	.pokeball = ITEM_POKE_BALL,
-	.isShiny = FALSE,
-    .postgameheldItem = ITEM_SITRUS_BERRY,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_HYPERSPACE_HOLE, MOVE_MOONBLAST, MOVE_MYSTICAL_FIRE, MOVE_CALM_MIND},
-    .moves = {MOVE_HYPERSPACE_HOLE, MOVE_MOONBLAST, MOVE_MYSTICAL_FIRE, MOVE_CALM_MIND}
-    },
-    {
-    .iv = 255,
-    .lvl = 5,
-    .evs = {0, 0, 0, 0, 0, 0}, 
-    .abilityNum = 0,
-    .happiness = 255,
-    .species = SPECIES_GALLADE,
-        .ivs = {30, 15, 15, 15, 15, 30},
-	.hiddenNature = NATURE_SERIOUS,
-	.pokeball = ITEM_POKE_BALL,
-	.isShiny = FALSE,
-    .postgameheldItem = ITEM_SITRUS_BERRY,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_ZEN_HEADBUTT, MOVE_CLOSE_COMBAT, MOVE_POISON_JAB, MOVE_BULK_UP},
-    .moves = {MOVE_ZEN_HEADBUTT, MOVE_CLOSE_COMBAT, MOVE_POISON_JAB, MOVE_BULK_UP}
-    }
-};
-
 static const struct TrainerMonItemCustomMoves sParty_TateAndLiza5[] = {
-    {
+       {
     .iv = 255,
     .lvl = 5, 
     .evs = {0, 0, 0, 0, 0, 0}, 
