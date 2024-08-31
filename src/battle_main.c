@@ -1877,6 +1877,9 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 		isDoubleBattle = TRUE;
 	else
 		isDoubleBattle = FALSE;
+
+    if(IsHardMode() == 1 && PartySize > LeaderMonsCount && trainerNum != TRAINER_TATE_AND_LIZA_1)
+	    LeaderMonsCount = PartySize;
 	
     if (trainerNum == TRAINER_SECRET_BASE)
         return 0;
@@ -2320,7 +2323,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 					}
 					
 					pokemonLevel = TrainerLevel[i];
-					
+				
 					
 				}
 				else if (partyData[i].lvl == 6)//Used for gym tate & liza
@@ -2329,12 +2332,9 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 						newspecies = GetTrainerPokemon(partyData[5].species, TrainerLevel[i]);	
 						speciesnumber = 5;
 					}
-					else if(i == LeaderMonsCount-2){
-						newspecies = GetTrainerPokemon(partyData[4].species, TrainerLevel[i]);	
-						speciesnumber = 4;
-					}
 					else{
 						newspecies = GetTrainerPokemon(partyData[i].species, TrainerLevel[i]);
+						speciesnumber = i;
 					}
 					
 					pokemonLevel = TrainerLevel[i];
