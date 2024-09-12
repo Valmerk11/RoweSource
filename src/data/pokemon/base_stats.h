@@ -27422,7 +27422,7 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_MISTY_SURGE,
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
-        .flags = F_GALARIAN_FORM
+        .flags = F_GALARIAN_FORM,
     },
 
     [SPECIES_MR_MIME_GALARIAN] =
