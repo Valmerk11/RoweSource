@@ -9172,6 +9172,7 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_ARENA_TRAP,
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
+		.flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_FLYGON] =
@@ -9202,6 +9203,7 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_ARENA_TRAP,
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
+		.flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_CACNEA] =
@@ -9971,6 +9973,7 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_HOLLOW_BODY,
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
+		.flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_ABSOL] =
@@ -10577,6 +10580,7 @@ const struct BaseStats gBaseStats[] =
         .abilities = {ABILITY_TELEPATHY, ABILITY_NONE},
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
+		.flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_LATIOS] =
@@ -10603,6 +10607,7 @@ const struct BaseStats gBaseStats[] =
         .abilities = {ABILITY_TELEPATHY, ABILITY_NONE},
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
+		.flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_KYOGRE] =
@@ -12047,6 +12052,7 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_HOLLOW_BODY,
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
+		.flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_STUNKY] =
@@ -16935,8 +16941,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_AMORPHOUS,
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_SUCTION_CUPS, ABILITY_OVERCHARGE},
-        .abilityHidden = ABILITY_STRONG_JAW,
+        .abilities = {ABILITY_LEVITATE, ABILITY_NONE},
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
@@ -17312,6 +17317,7 @@ const struct BaseStats gBaseStats[] =
 		.abilityHidden = ABILITY_SLUSH_RUSH,
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
+		.flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_SHELMET] =
