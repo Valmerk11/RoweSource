@@ -7068,8 +7068,8 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_SITRUS_BERRY,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_DISCHARGE, MOVE_INCINERATE, MOVE_OMINOUS_WIND, MOVE_SCREECH},
-    .moves = {MOVE_DISCHARGE, MOVE_INCINERATE, MOVE_OMINOUS_WIND, MOVE_SCREECH}
+    .postgamemoves = {MOVE_DISCHARGE, MOVE_FIRE_SPIN, MOVE_OMINOUS_WIND, MOVE_SCREECH},
+    .moves = {MOVE_DISCHARGE, MOVE_FIRE_SPIN, MOVE_OMINOUS_WIND, MOVE_SCREECH}
     }
 };
 
