@@ -7061,15 +7061,15 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 0,
     .happiness = 255,
-    .species = SPECIES_ROTOM_HEAT,
+    .species = SPECIES_ROTOM,
         .ivs = {30, 15, 15, 15, 15, 30},
 	.hiddenNature = NATURE_SERIOUS,
 	.pokeball = ITEM_POKE_BALL,
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_SITRUS_BERRY,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_DISCHARGE, MOVE_FIRE_SPIN, MOVE_OMINOUS_WIND, MOVE_SCREECH},
-    .moves = {MOVE_DISCHARGE, MOVE_FIRE_SPIN, MOVE_OMINOUS_WIND, MOVE_SCREECH}
+    .postgamemoves = {MOVE_DISCHARGE, MOVE_OMINOUS_WIND, MOVE_FIRE_SPIN, MOVE_SCREECH},
+    .moves = {MOVE_DISCHARGE, MOVE_OMINOUS_WIND, MOVE_FIRE_SPIN, MOVE_SCREECH}
     }
 };
 
@@ -19862,15 +19862,15 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 0,
     .happiness = 255,
-    .species = SPECIES_ROTOM_HEAT,
+    .species = SPECIES_ROTOM,
         .ivs = {30, 15, 15, 15, 15, 30},
 	.hiddenNature = NATURE_SERIOUS,
 	.pokeball = ITEM_POKE_BALL,
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_SITRUS_BERRY,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_DISCHARGE, MOVE_INCINERATE, MOVE_OMINOUS_WIND, MOVE_WILL_O_WISP},
-    .moves = {MOVE_DISCHARGE, MOVE_INCINERATE, MOVE_OMINOUS_WIND, MOVE_WILL_O_WISP}
+    .postgamemoves = {MOVE_DISCHARGE, MOVE_OMINOUS_WIND, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP},
+    .moves = {MOVE_DISCHARGE, MOVE_OMINOUS_WIND, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP}
     }
 };
 
@@ -19961,15 +19961,15 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 0,
     .happiness = 255,
-    .species = SPECIES_ROTOM_HEAT,
+    .species = SPECIES_ROTOM,
         .ivs = {30, 15, 15, 15, 15, 30},
 	.hiddenNature = NATURE_SERIOUS,
 	.pokeball = ITEM_POKE_BALL,
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_SITRUS_BERRY,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_DISCHARGE, MOVE_INCINERATE, MOVE_HEX, MOVE_WILL_O_WISP},
-    .moves = {MOVE_DISCHARGE, MOVE_INCINERATE, MOVE_HEX, MOVE_WILL_O_WISP}
+    .postgamemoves = {MOVE_DISCHARGE, MOVE_HEX, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP},
+    .moves = {MOVE_DISCHARGE, MOVE_HEX, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP}
     }
 };
 
@@ -20060,15 +20060,15 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 0,
     .happiness = 255,
-    .species = SPECIES_ROTOM_HEAT,
+    .species = SPECIES_ROTOM,
         .ivs = {30, 15, 15, 15, 15, 30},
 	.hiddenNature = NATURE_SERIOUS,
 	.pokeball = ITEM_POKE_BALL,
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_SITRUS_BERRY,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_INCINERATE, MOVE_SHADOW_BALL, MOVE_WILL_O_WISP},
-    .moves = {MOVE_THUNDERBOLT, MOVE_INCINERATE, MOVE_SHADOW_BALL, MOVE_WILL_O_WISP}
+    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_SHADOW_BALL, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP},
+    .moves = {MOVE_THUNDERBOLT, MOVE_SHADOW_BALL, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP}
     }
 };
 
@@ -20159,15 +20159,15 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 0,
     .happiness = 255,
-    .species = SPECIES_ROTOM_HEAT,
+    .species = SPECIES_ROTOM,
         .ivs = {30, 15, 15, 15, 15, 30},
 	.hiddenNature = NATURE_SERIOUS,
 	.pokeball = ITEM_POKE_BALL,
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_SITRUS_BERRY,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_INCINERATE, MOVE_SHADOW_BALL, MOVE_WILL_O_WISP},
-    .moves = {MOVE_THUNDERBOLT, MOVE_INCINERATE, MOVE_SHADOW_BALL, MOVE_WILL_O_WISP}
+    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_INCINERATE, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP},
+    .moves = {MOVE_THUNDERBOLT, MOVE_INCINERATE, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP}
     }
 };
 
