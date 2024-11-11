@@ -3157,7 +3157,7 @@ const struct BaseStats gBaseStats[] =
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .catchRate = 255,
-        .expYield = 395,
+        .expYield = 235,
         .evYield_HP        = 2,
         .item1 = ITEM_LUCKY_PUNCH,
         .item2 = ITEM_LUCKY_EGG,
@@ -6770,7 +6770,7 @@ const struct BaseStats gBaseStats[] =
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .catchRate = 255,
-        .expYield = 608,
+        .expYield = 365,
         .evYield_HP        = 3,
         .item1 = ITEM_LUCKY_EGG,
         .item2 = ITEM_LUCKY_EGG,
@@ -14833,7 +14833,7 @@ const struct BaseStats gBaseStats[] =
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_FAIRY,
         .catchRate = 255,
-        .expYield = 608,
+        .expYield = 158,
         .evYield_HP        = 2,
         .item1 = ITEM_ORAN_BERRY,
         .item2 = ITEM_SITRUS_BERRY,
@@ -16047,7 +16047,8 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_ILLUSION, ABILITY_NONE},
+            .abilities = {ABILITY_ILLUSION, ABILITY_ILLUSION},
+            .abilityHidden = ABILITY_TRACE,
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
