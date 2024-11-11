@@ -12586,7 +12586,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
     {
         .move = MOVE_BIND,
         .modification = SIGNATURE_MOD_TYPE,
-        .variable = TYPE_FIGHT,
+        .variable = TYPE_FIGHTING,
         .modification2 = SIGNATURE_MOD_ATTACKER_STAT_UP,
         .variable2 = STAT_DEF,
         .chance2 = 50,
