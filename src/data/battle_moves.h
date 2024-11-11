@@ -8407,7 +8407,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .effect = EFFECT_SLEEP,
         .power = 0,
         .type = TYPE_PSYCHIC,
-        .accuracy = 60,
+        .accuracy = 50,
         .pp = 20,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_FOES_AND_ALLY,
@@ -12559,7 +12559,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
     {
         .move = MOVE_RELIC_SONG,
         .modification = SIGNATURE_MOD_ACCURACY,
-        .variable = 70,
+        .variable = 60,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
