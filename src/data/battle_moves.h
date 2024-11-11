@@ -8404,16 +8404,16 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_RELIC_SONG] =
     {
-        .effect = EFFECT_SLEEP_HIT,   //EFFECT_SLEEP_HIT,
-        .power = 75,
-        .type = TYPE_NORMAL,
-        .accuracy = 100,
-        .pp = 10,
-        .secondaryEffectChance = 10,
-        .target = MOVE_TARGET_BOTH,
+        .effect = EFFECT_SLEEP,
+        .power = 0,
+        .type = TYPE_PSYCHIC,
+        .accuracy = 60,
+        .pp = 20,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_FOES_AND_ALLY,
         .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SOUND | FLAG_SHEER_FORCE_BOOST,
-        .split = SPLIT_SPECIAL,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MAGICCOAT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+        .split = SPLIT_STATUS,
     },
 
     [MOVE_SECRET_SWORD] =
@@ -11727,7 +11727,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
     },
     [SPECIES_HITMONLEE] =
     {
-        .move = MOVE_HI_JUMP_KICK,
+        .move = MOVE_JUMP_KICK,
         .modification = SIGNATURE_MOD_ACCURACY,
         .variable = 100,
         .differentDescription = FALSE,
@@ -11832,6 +11832,14 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .chance = 10,
         .modification2 = SIGNATURE_MOD_SECOND_TYPE,
         .variable2 = TYPE_ICE,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+    [SPECIES_DITTO] =
+    {
+        .move = MOVE_TRANSFORM,
+        .modification = SIGNATURE_MOD_PRIORITY,
+        .variable = SIGNATURE_PRIORITY_ALWAYS,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
@@ -12547,12 +12555,44 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
+    [SPECIES_MUNNA] =
+    {
+        .move = MOVE_RELIC_SONG,
+        .modification = SIGNATURE_MOD_ACCURACY,
+        .variable = 70,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+    [SPECIES_MUSHARNA] =
+    {
+        .move = MOVE_RELIC_SONG,
+        .modification = SIGNATURE_MOD_ACCURACY,
+        .variable = 70,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
     [SPECIES_SCRAFTY] =
     {
         .move = MOVE_LOW_KICK,
-        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
-        .variable = SIGNATURE_SECONDARY_EFFECT_TAUNT,
+        .modification = SIGNATURE_MOD_PRIORITY,
+        .variable = SIGNATURE_PRIORITY_ALWAYS,
+        .modification2 = SIGNATURE_MOD_SECONDARY_EFFECT,
+        .variable2 = SIGNATURE_SECONDARY_EFFECT_TAUNT,
         .chance = 30,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+    [SPECIES_THROH] =
+    {
+        .move = MOVE_ROCK_SMASH,
+        .modification = SIGNATURE_MOD_MODIFY_FIELD,
+        .variable = FIELD_OPPONET_SET_STEALTH_ROCK,
+        .chance = 50,
+        .modification2 = SIGNATURE_MOD_ATTACKER_STAT_UP,
+        .variable2 = STAT_ATK,
+        .chance2 = 50,
+        .modification3 = SIGNATURE_MOD_POWER,
+        .variable3 = 50,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
@@ -12563,8 +12603,20 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .variable = FIELD_OPPONET_SET_STEALTH_ROCK,
         .chance = 50,
         .modification2 = SIGNATURE_MOD_ATTACKER_STAT_UP,
-        .variable2 = STAT_ATK,
+        .variable2 = STAT_DEF,
         .chance2 = 50,
+        .modification3 = SIGNATURE_MOD_POWER,
+        .variable3 = 50,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+    [SPECIES_ALOMOMOLA] =
+    {
+        .move = MOVE_DRAINING_KISS,
+        .modification = SIGNATURE_MOD_PRIORITY,
+        .variable = SIGNATURE_PRIORITY_ALWAYS,
+        .modification2 = SIGNATURE_MOD_POWER,
+        .variable2 = 75,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
