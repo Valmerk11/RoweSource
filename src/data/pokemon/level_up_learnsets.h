@@ -4134,6 +4134,7 @@ static const struct LevelUpMove sMoltresLevelUpLearnset[] = {
 static const struct LevelUpMove sDratiniLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_WRAP),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
+    LEVEL_UP_MOVE( 5, MOVE_AQUA_JET),
     LEVEL_UP_MOVE( 7, MOVE_THUNDER_WAVE),
     LEVEL_UP_MOVE( 9, MOVE_TWISTER),
     LEVEL_UP_MOVE(16, MOVE_DRAGON_RAGE),
