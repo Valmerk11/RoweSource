@@ -295,12 +295,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_BIND] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_5
-            .accuracy = 85,
+            .accuracy = 90,
         #else
-            .accuracy = 75,
+            .accuracy = 80,
         #endif
         .effect = EFFECT_TRAP,
-        .power = 15,
+        .power = 20,
         .type = TYPE_NORMAL,
         .pp = 20,
         .secondaryEffectChance = 100,
@@ -327,7 +327,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_VINE_WHIP] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_6
-            .power = 45,
+            .power = 40,
             .pp = 25,
         #elif B_UPDATED_MOVE_DATA >= GEN_4
             .power = 35,
@@ -538,7 +538,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
             .accuracy = 85,
         #endif
         .effect = EFFECT_TRAP,
-        .power = 15,
+        .power = 20,
         .type = TYPE_NORMAL,
         .pp = 20,
         .secondaryEffectChance = 100,
@@ -612,7 +612,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_POISON_STING] =
     {
         .effect = EFFECT_POISON_HIT,
-        .power = 15,
+        .power = 30,
         .type = TYPE_POISON,
         .accuracy = 100,
         .pp = 35,
@@ -997,7 +997,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_PECK] =
     {
         .effect = EFFECT_HIT,
-        .power = 35,
+        .power = 40,
         .type = TYPE_FLYING,
         .accuracy = 100,
         .pp = 35,
@@ -1299,7 +1299,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         #endif
         .effect = EFFECT_TRAP,
         .type = TYPE_FIRE,
-        .pp = 15,
+        .pp = 20,
         .secondaryEffectChance = 100,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -1540,7 +1540,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_RAGE] =
     {
         .effect = EFFECT_RAGE,
-        .power = 20,
+        .power = 40,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 20,
@@ -1892,7 +1892,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SMOG] =
     {
-        .power = 35,
+        .power = 40,
         .effect = EFFECT_POISON_HIT,
         .type = TYPE_POISON,
         .accuracy = 90,
@@ -2037,7 +2037,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_CONSTRICT] =
     {
         .effect = EFFECT_SPEED_DOWN_HIT,
-        .power = 10,
+        .power = 40,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 35,
@@ -2393,7 +2393,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_FURY_SWIPES] =
     {
         .effect = EFFECT_MULTI_HIT,
-        .power = 18,
+        .power = 20,
         .type = TYPE_NORMAL,
         .accuracy = 80,
         .pp = 15,
@@ -4816,7 +4816,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .power = 30,
         .type = TYPE_GHOST,
         .accuracy = 100,
-        .pp = 15,
+        .pp = 30,
         .secondaryEffectChance = 30,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -5661,7 +5661,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .effect = EFFECT_FEINT,
         .type = TYPE_NORMAL,
         .accuracy = 100,
-        .pp = 10,
+        .pp = 20,
         .secondaryEffectChance = 100,
         .target = MOVE_TARGET_SELECTED,
         .priority = 2,
@@ -7658,7 +7658,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .power = 40,
         .type = TYPE_NORMAL,
         .accuracy = 100,
-        .pp = 15,
+        .pp = 30,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -8805,7 +8805,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .power = 40,
         .type = TYPE_FAIRY,
         .accuracy = 0,
-        .pp = 15,
+        .pp = 25,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_BOTH,
         .priority = 0,
@@ -9651,12 +9651,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .power = 40,
         .type = TYPE_GRASS,
         .accuracy = 100,
-        .pp = 40,
+        .pp = 25,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
-        .split = SPLIT_PHYSICAL,
+        .split = SPLIT_SPECIAL,
     },
 
     [MOVE_SPOTLIGHT] =
