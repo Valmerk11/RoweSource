@@ -2041,7 +2041,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 35,
-        .secondaryEffectChance = 10,
+        .secondaryEffectChance = 30,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
@@ -12809,6 +12809,15 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
+    [SPECIES_PALOSSAND] =
+    {
+        .move = MOVE_SHORE_UP,
+        .modification = SIGNATURE_MOD_MODIFY_FIELD,
+        .variable = FIELD_SET_WEATHER_SANDSTORM,
+        .chance2 = 20,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
     [SPECIES_RILLABOOM] =
     {
         .move = MOVE_GRASSY_GLIDE,
@@ -12817,12 +12826,23 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_PALOSSAND] =
+    [SPECIES_SILICOBRA] =
     {
-        .move = MOVE_SHORE_UP,
-        .modification = SIGNATURE_MOD_MODIFY_FIELD,
-        .variable = FIELD_SET_WEATHER_SANDSTORM,
-        .chance2 = 20,
+        .move = MOVE_CONSTRICT,
+        .modification = SIGNATURE_MOD_TYPE,
+        .variable = TYPE_GROUND,
+        .modification2 = SIGNATURE_MOD_POWER,
+        .variable2 = 50,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+    [SPECIES_SANDACONDA] =
+    {
+        .move = MOVE_CONSTRICT,
+        .modification = SIGNATURE_MOD_TYPE,
+        .variable = TYPE_GROUND,
+        .modification2 = SIGNATURE_MOD_POWER,
+        .variable2 = 50,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
