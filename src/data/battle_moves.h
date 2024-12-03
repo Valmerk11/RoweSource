@@ -400,6 +400,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
             .power = 70,
             .pp = 25,
         #endif
+        .effect = EFFECT_HIT,
         .type = TYPE_FIGHTING,
         .accuracy = 95,
         .secondaryEffectChance = 0,
@@ -2105,6 +2106,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
             .power = 85,
             .pp = 20,
         #endif
+        .effect = EFFECT_HIT,
         .type = TYPE_FIGHTING,
         .accuracy = 90,
         .secondaryEffectChance = 0,
@@ -2584,7 +2586,6 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .effect = EFFECT_TRIPLE_KICK,
         .power = 20,
         .type = TYPE_FIGHTING,
-        .effect = EFFECT_RECOIL_IF_MISS,
         .accuracy = 90,
         .pp = 10,
         .secondaryEffectChance = 0,
