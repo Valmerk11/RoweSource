@@ -400,7 +400,6 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
             .power = 70,
             .pp = 25,
         #endif
-        .effect = EFFECT_RECOIL_IF_MISS,
         .type = TYPE_FIGHTING,
         .accuracy = 95,
         .secondaryEffectChance = 0,
@@ -415,7 +414,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .effect = EFFECT_FLINCH_HIT,
         .power = 60,
         .type = TYPE_FIGHTING,
-        .accuracy = 85,
+        .accuracy = 100,
         .pp = 15,
         .secondaryEffectChance = 30,
         .target = MOVE_TARGET_SELECTED,
@@ -2106,7 +2105,6 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
             .power = 85,
             .pp = 20,
         #endif
-        .effect = EFFECT_RECOIL_IF_MISS,
         .type = TYPE_FIGHTING,
         .accuracy = 90,
         .secondaryEffectChance = 0,
@@ -2584,8 +2582,9 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_TRIPLE_KICK] =
     {
         .effect = EFFECT_TRIPLE_KICK,
-        .power = 25,
+        .power = 20,
         .type = TYPE_FIGHTING,
+        .effect = EFFECT_RECOIL_IF_MISS,
         .accuracy = 90,
         .pp = 10,
         .secondaryEffectChance = 0,
@@ -4656,7 +4655,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .effect = EFFECT_BURN_HIT,
         .power = 85,
         .type = TYPE_FIRE,
-        .accuracy = 90,
+        .accuracy = 100,
         .pp = 10,
         .secondaryEffectChance = 10,
         .target = MOVE_TARGET_SELECTED,
@@ -6356,7 +6355,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_DRAIN_PUNCH] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_5
-            .power = 75,
+            .power = 60,
             .pp = 10,
         #else
             .power = 60,
@@ -9900,7 +9899,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_TROP_KICK] =
     {
         .effect = EFFECT_ATTACK_DOWN_HIT,
-        .power = 70,
+        .power = 85,
         .type = TYPE_GRASS,
         .accuracy = 100,
         .pp = 15,
@@ -11727,25 +11726,25 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
     },
     [SPECIES_HITMONLEE] =
     {
-        .move = MOVE_JUMP_KICK,
-        .modification = SIGNATURE_MOD_ACCURACY,
-        .variable = 100,
+        .move = MOVE_TRIPLE_KICK,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 30,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
     [SPECIES_HITMONCHAN] =
     {
-        .move = MOVE_MACH_PUNCH,
+        .move = MOVE_DRAIN_PUNCH,
         .modification = SIGNATURE_MOD_POWER,
-        .variable = 60,
+        .variable = 80,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
     [SPECIES_HITMONTOP] =
     {
-        .move = MOVE_TRIPLE_KICK,
+        .move = MOVE_ROLLING_KICK,
         .modification = SIGNATURE_MOD_POWER,
-        .variable = 30,
+        .variable = 90,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
