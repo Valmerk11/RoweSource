@@ -9643,6 +9643,7 @@ static const u8 sHitmontopTMHMLearnset[] =
     TMHM(TM88_SLEEP_TALK),
     TMHM(TM90_SUBSTITUTE),
     TMHM(TM100_CONFIDE),
+    TMHM(TM104_PLAY_ROUGH),
     0xFF,
 };
 
