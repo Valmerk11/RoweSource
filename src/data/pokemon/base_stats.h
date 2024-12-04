@@ -29217,12 +29217,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ROTOM_HEAT] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 60,
-        .baseDefense   = 75,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 105,
-        .baseSpDefense = 75,
+        .baseHP        = 80,
+        .baseAttack    = 65,
+        .baseDefense   = 80,
+        .baseSpeed     = 100,
+        .baseSpAttack  = 115,
+        .baseSpDefense = 80,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_GHOST,
         .catchRate = 255,
@@ -29242,12 +29242,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ROTOM_WASH] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 60,
-        .baseDefense   = 75,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 105,
-        .baseSpDefense = 75,
+        .baseHP        = 80,
+        .baseAttack    = 65,
+        .baseDefense   = 80,
+        .baseSpeed     = 100,
+        .baseSpAttack  = 115,
+        .baseSpDefense = 80,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_GHOST,
         .catchRate = 255,
@@ -29267,12 +29267,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ROTOM_FROST] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 60,
-        .baseDefense   = 75,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 105,
-        .baseSpDefense = 75,
+        .baseHP        = 80,
+        .baseAttack    = 65,
+        .baseDefense   = 80,
+        .baseSpeed     = 100,
+        .baseSpAttack  = 115,
+        .baseSpDefense = 80,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_GHOST,
         .catchRate = 255,
@@ -29292,12 +29292,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ROTOM_FAN] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 60,
-        .baseDefense   = 75,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 105,
-        .baseSpDefense = 75,
+        .baseHP        = 80,
+        .baseAttack    = 65,
+        .baseDefense   = 80,
+        .baseSpeed     = 100,
+        .baseSpAttack  = 115,
+        .baseSpDefense = 80,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_GHOST,
         .catchRate = 255,
@@ -29317,12 +29317,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ROTOM_MOW] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 60,
-        .baseDefense   = 75,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 105,
-        .baseSpDefense = 75,
+        .baseHP        = 80,
+        .baseAttack    = 65,
+        .baseDefense   = 80,
+        .baseSpeed     = 100,
+        .baseSpAttack  = 115,
+        .baseSpDefense = 80,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_GHOST,
         .catchRate = 255,
