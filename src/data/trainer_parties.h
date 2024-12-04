@@ -19961,7 +19961,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 0,
     .happiness = 255,
-    .species = SPECIES_ROTOM,
+    .species = SPECIES_ROTOM_HEAT,
         .ivs = {30, 15, 15, 15, 15, 30},
 	.hiddenNature = NATURE_SERIOUS,
 	.pokeball = ITEM_POKE_BALL,
@@ -20060,7 +20060,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 0,
     .happiness = 255,
-    .species = SPECIES_ROTOM,
+    .species = SPECIES_ROTOM_HEAT,
         .ivs = {30, 15, 15, 15, 15, 30},
 	.hiddenNature = NATURE_SERIOUS,
 	.pokeball = ITEM_POKE_BALL,
@@ -20159,15 +20159,15 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 0,
     .happiness = 255,
-    .species = SPECIES_ROTOM,
+    .species = SPECIES_ROTOM_HEAT,
         .ivs = {30, 15, 15, 15, 15, 30},
 	.hiddenNature = NATURE_SERIOUS,
 	.pokeball = ITEM_POKE_BALL,
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_SITRUS_BERRY,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_INCINERATE, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP},
-    .moves = {MOVE_THUNDERBOLT, MOVE_INCINERATE, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP}
+    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_SHADOW_BALL, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP},
+    .moves = {MOVE_THUNDERBOLT, MOVE_SHADOW_BALL, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP}
     }
 };
 
