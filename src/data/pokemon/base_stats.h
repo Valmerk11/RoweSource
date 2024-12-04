@@ -14458,10 +14458,10 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_PIDOVE] =
     {
         .baseHP        = 50,
-        .baseAttack    = 55,
+        .baseAttack    = 40,
         .baseDefense   = 50,
         .baseSpeed     = 45,
-        .baseSpAttack  = 35,
+        .baseSpAttack  = 50,
         .baseSpDefense = 30,
         .type1 = TYPE_FLYING,
         .type2 = TYPE_FLYING,
@@ -14487,10 +14487,10 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_TRANQUILL] =
     {
         .baseHP        = 65,
-        .baseAttack    = 75,
+        .baseAttack    = 50,
         .baseDefense   = 60,
         .baseSpeed     = 65,
-        .baseSpAttack  = 50,
+        .baseSpAttack  = 75,
         .baseSpDefense = 45,
         .type1 = TYPE_FLYING,
         .type2 = TYPE_FLYING,
@@ -14518,12 +14518,12 @@ const struct BaseStats gBaseStats[] =
         .baseHP        = 80,
         .baseDefense   = 80,
         .baseSpeed     = 95,
-        .baseSpAttack  = 65,
+        .baseSpAttack  = 100,
         .baseSpDefense = 55,
         #if P_UPDATED_STATS >= GEN_6
-            .baseAttack    = 115,
+            .baseAttack    = 80,
         #else
-            .baseAttack    = 115,
+            .baseAttack    = 80,
         #endif
         .type1 = TYPE_FLYING,
         .type2 = TYPE_FLYING,
